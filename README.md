@@ -10,11 +10,19 @@ arXiv 2018
   <table style="width:100%" border="0">
     <tr>
       <td align="center"><img src='https://cs.gmu.edu/~amousavi/gifs/smaller_fridge_2.gif'></td>
-      <td align="center"><img src='https://cs.gmu.edu/~amousavi/gifs/smaller_fridge_2.gif'></td>
+      <td align="center"><img src='https://cs.gmu.edu/~amousavi/gifs/smaller_tv_1.gif'></td>
     </tr>
     <tr>
-      <td align="center">Fridge</td>
-      <td align="center">Fridge</td>
+      <td align="center">Goal: Fridge</td>
+      <td align="center">Goal: tv</td>
+    </tr>
+    <tr>
+      <td align="center"><img src='https://cs.gmu.edu/~amousavi/gifs/smaller_microwave_1.gif'></td>
+      <td align="center"><img src='https://cs.gmu.edu/~amousavi/gifs/smaller_couch_1.gif'></td>
+    </tr>
+    <tr>
+      <td align="center">Goal: Microwave</td>
+      <td align="center">Goal: Couch</td>
     </tr>
   </table>
 </div>
