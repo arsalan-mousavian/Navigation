@@ -11,6 +11,10 @@ arXiv 2018
     <td><img src='https://cs.gmu.edu/~amousavi/gifs/smaller_fridge_2.gif'></td>
     <td><img src='https://cs.gmu.edu/~amousavi/gifs/smaller_fridge_2.gif'></td>
   </tr>
+  <tr>
+    <td>Fridge</td>
+    <td>Fridge</td>
+  </tr>
 </p>
 
 ![asd](https://cs.gmu.edu/~amousavi/gifs/fridge_1.gif)
