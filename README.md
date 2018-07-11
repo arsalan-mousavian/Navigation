@@ -7,7 +7,7 @@ Arsalan Mousavian, Alexander Toshev, Marek Fiser, Jana Kosecka, James Davidson
 arXiv 2018
 
 <div align="center">
-  <table style="width:100%">
+  <table style="width:100%" border="0">
     <tr>
       <td align="center"><img src='https://cs.gmu.edu/~amousavi/gifs/smaller_fridge_2.gif'></td>
       <td align="center"><img src='https://cs.gmu.edu/~amousavi/gifs/smaller_fridge_2.gif'></td>
