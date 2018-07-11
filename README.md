@@ -14,7 +14,7 @@ arXiv 2018
     </tr>
     <tr>
       <td align="center">Target: Fridge</td>
-      <td align="center">Target: tv</td>
+      <td align="center">Target: Television</td>
     </tr>
     <tr>
       <td align="center"><img src='https://cs.gmu.edu/~amousavi/gifs/smaller_microwave_1.gif'></td>
@@ -67,7 +67,7 @@ If you find our work useful in your research please consider citing our paper:
 
 ```
 @inproceedings{MousavianArxiv18,
-  author = {A. Mousavian and A.toshev and M. Fiser and J. Kosecka and J. Davidson},
+  author = {A. Mousavian and A. Toshev and M. Fiser and J. Kosecka and J. Davidson},
   title = {Visual Representations for Semantic Target Driven Navigation},
   booktitle = {arXiv:1805.06066},
   year = {2018},
