@@ -9,18 +9,16 @@ arXiv 2018
 <div align="center">
   <table style="width:100%">
     <tr>
-      <td><img src='https://cs.gmu.edu/~amousavi/gifs/smaller_fridge_2.gif'></td>
-      <td><img src='https://cs.gmu.edu/~amousavi/gifs/smaller_fridge_2.gif'></td>
+      <td align="center"><img src='https://cs.gmu.edu/~amousavi/gifs/smaller_fridge_2.gif'></td>
+      <td align="center"><img src='https://cs.gmu.edu/~amousavi/gifs/smaller_fridge_2.gif'></td>
     </tr>
     <tr>
-      <td>Fridge</td>
-      <td>Fridge</td>
+      <td align="center">Fridge</td>
+      <td align="center">Fridge</td>
     </tr>
   </table>
 </div>
 
-
-![asd](https://cs.gmu.edu/~amousavi/gifs/fridge_1.gif)
 
 
 ArXiv: [https://arxiv.org/abs/1805.06066](https://arxiv.org/abs/1805.06066)
