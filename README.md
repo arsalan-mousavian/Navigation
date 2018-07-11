@@ -6,16 +6,19 @@ Arsalan Mousavian, Alexander Toshev, Marek Fiser, Jana Kosecka, James Davidson
 
 arXiv 2018
 
-<table style="width:100%">
-  <tr>
-    <td><img src='https://cs.gmu.edu/~amousavi/gifs/smaller_fridge_2.gif'></td>
-    <td><img src='https://cs.gmu.edu/~amousavi/gifs/smaller_fridge_2.gif'></td>
-  </tr>
-  <tr>
-    <td>Fridge</td>
-    <td>Fridge</td>
-  </tr>
-</p>
+<div align="center">
+  <table style="width:100%">
+    <tr>
+      <td><img src='https://cs.gmu.edu/~amousavi/gifs/smaller_fridge_2.gif'></td>
+      <td><img src='https://cs.gmu.edu/~amousavi/gifs/smaller_fridge_2.gif'></td>
+    </tr>
+    <tr>
+      <td>Fridge</td>
+      <td>Fridge</td>
+    </tr>
+  </table>
+</div>
+
 
 ![asd](https://cs.gmu.edu/~amousavi/gifs/fridge_1.gif)
 
