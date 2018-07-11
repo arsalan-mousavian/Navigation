@@ -9,7 +9,7 @@ arXiv 2018
 <p align="center"><img src='https://cs.gmu.edu/~amousavi/gifs/fridge_1.gif'>
 </p>
 
-![](https://cs.gmu.edu/~amousavi/gifs/fridge_1.gif)
+![asd](https://cs.gmu.edu/~amousavi/gifs/fridge_1.gif)
 
 
 ArXiv: [https://arxiv.org/abs/1805.06066](https://arxiv.org/abs/1805.06066)
