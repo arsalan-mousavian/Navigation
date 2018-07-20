@@ -54,6 +54,14 @@ git clone --depth 1 https://github.com/tensorflow/models.git
 ### Download ActiveVisionDataset 
 We used Active Vision Dataset (AVD) which can be downloaded from <a href="http://cs.unc.edu/~ammirato/active_vision_dataset_website/">here</a>. To make our code faster and have less memory requirement we created the AVD Minimal dataset which consists of lower resolution images in addition to annotations for target views, predicted object detections, and predicted semantic segmentation. Our code uses AVD Minimal.
 
+If you wish to navigate the environment, to see how the AVD looks like you can use the following command:
+```shell
+python viz_active_vision_dataset_main -- \
+  --mode=human \
+  --gin_config=robotics/cognitive_planning/envs/configs/active_vision_config.gin
+```
+
+
 ## 3. Training
 Right now, the released version only supports training and inference using the real data from Active Vision Dataset.
 
@@ -96,6 +104,14 @@ rain_supervised_active_vision \
 """
 ```
 At any point, you can run the following command to compute statistics such as success rate over all the evaluations so far. It also generates gif images for unrolling of the best policy.
+```shell
+Visualize and Compute Stats
+python viz_active_vision_dataset_main.py \
+   --mode=eval \ 
+   --eval_folder=$CHECKPOINT_DIR/evals/ \
+   --output_folder=$OUTPUT_GIFS_FOLDER \
+   --gin_config=envs/configs/active_vision_config.gin
+```
 ## Reference
 If you find our work useful in your research please consider citing our paper:
 
