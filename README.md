@@ -75,7 +75,7 @@ Use the following command for training:
 python train_supervised_active_vision.py \
   --mode='train' \
   --logdir=$CHECKPOINT_DIR \
-  --modality_types='image' \
+  --modality_types='det' \
   --batch_size=8 \
   --train_iters=200000 \
   --lstm_cell_size=2048 \
