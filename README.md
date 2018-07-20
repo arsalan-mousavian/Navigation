@@ -62,7 +62,7 @@ If you wish to navigate the environment, to see how the AVD looks like you can u
 python viz_active_vision_dataset_main -- \
   --mode=human \
   --gin_config=envs/configs/active_vision_config.gin \
-  --gin_params='ActiveVisionDatasetEnv.dataset_root=$AVD_DIR
+  --gin_params='ActiveVisionDatasetEnv.dataset_root=$AVD_DIR'
 ```
 
 ## 3. Training
@@ -84,7 +84,7 @@ python train_supervised_active_vision.py \
   --max_eval_episode_length=100 \
   --test_iters=194 \
   --gin_config=envs/configs/active_vision_config.gin \
-  --gin_params='ActiveVisionDatasetEnv.dataset_root=$AVD_DIR \
+  --gin_params='ActiveVisionDatasetEnv.dataset_root=$AVD_DIR' \
   --logtostderr
 ```
 
@@ -104,7 +104,7 @@ python train_supervised_active_vision \
   --max_eval_episode_length=100 \
   --test_iters=194 \
   --gin_config=envs/configs/active_vision_config.gin \
-  --gin_params='ActiveVisionDatasetEnv.dataset_root=$AVD_DIR \
+  --gin_params='ActiveVisionDatasetEnv.dataset_root=$AVD_DIR' \
   --logtostderr
 """
 ```
@@ -116,7 +116,7 @@ python viz_active_vision_dataset_main.py \
    --eval_folder=$CHECKPOINT_DIR/evals/ \
    --output_folder=$OUTPUT_GIFS_FOLDER \
    --gin_config=envs/configs/active_vision_config.gin \
-   --gin_params='ActiveVisionDatasetEnv.dataset_root=$AVD_DIR
+   --gin_params='ActiveVisionDatasetEnv.dataset_root=$AVD_DIR'
 ```
 ## Reference
 If you find our work useful in your research please consider citing our paper:
