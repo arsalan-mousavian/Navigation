@@ -106,7 +106,6 @@ python train_supervised_active_vision \
   --gin_config=envs/configs/active_vision_config.gin \
   --gin_params='ActiveVisionDatasetEnv.dataset_root=$AVD_DIR' \
   --logtostderr
-"""
 ```
 At any point, you can run the following command to compute statistics such as success rate over all the evaluations so far. It also generates gif images for unrolling of the best policy.
 ```shell
