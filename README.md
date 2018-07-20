@@ -39,7 +39,8 @@ ArXiv: [https://arxiv.org/abs/1805.06066](https://arxiv.org/abs/1805.06066)
 #### Python Packages
 
 ```shell
-TODO
+networkx
+gin-config
 ```
 
 ### Download semantic_nav
@@ -51,17 +52,50 @@ git clone --depth 1 https://github.com/tensorflow/models.git
 ## 2. Datasets
 
 ### Download ActiveVisionDataset 
-
+We used Active Vision Dataset (AVD) which can be downloaded from <a href="http://cs.unc.edu/~ammirato/active_vision_dataset_website/">here/a>. To make our code faster and have less memory requirement we created the AVD Minimal dataset which consists of lower resolution images in addition to annotations for target views, predicted object detections, and predicted semantic segmentation. Our code uses AVD Minimal.
 
 ## 3. Training
+Right now, the released version only supports training and inference using the real data from Active Vision Dataset.
 
 ### Run training
-
+Use the following command for training:
 ```shell
 # Train
-TODO
+python train_supervised_active_vision.py \
+  --mode='train' \
+  --logdir=$CHECKPOINT_DIR \
+  --modality_types='image' \
+  --batch_size=8 \
+  --train_iters=200000 \
+  --lstm_cell_size=2048 \
+  --policy_fc_size=2048 \
+  --sequence_length=20 \
+  --max_eval_episode_length=100 \
+  --test_iters=194 \
+  --gin_config=envs/configs/active_vision_config.gin \
+  --logtostderr
 ```
 
+### Run Evaluation
+Use the following command for unrolling the policy on the eval environments. The inference code periodically check the checkpoint folder for new checkpoints to use it for unrolling the policy on the eval environments. After each evaluation, it will create a folder in the $CHECKPOINT_DIR/evals/$ITER where $ITER is the iteration number at which the checkpoint is stored.
+```shell
+# Eval
+rain_supervised_active_vision \
+  --mode='eval' \
+  --logdir=$CHECKPOINT_DIR \
+  --modality_types='det' \
+  --batch_size=8 \
+  --train_iters=200000 \
+  --lstm_cell_size=2048 \
+  --policy_fc_size=2048 \
+  --sequence_length=20 \
+  --max_eval_episode_length=100 \
+  --test_iters=194 \
+  --gin_config=envs/configs/active_vision_config.gin \
+  --logtostderr
+"""
+```
+At any point, you can run the following command to compute statistics such as success rate over all the evaluations so far. It also generates gif images for unrolling of the best policy.
 ## Reference
 If you find our work useful in your research please consider citing our paper:
 
