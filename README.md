@@ -52,7 +52,7 @@ git clone --depth 1 https://github.com/tensorflow/models.git
 ## 2. Datasets
 
 ### Download ActiveVisionDataset 
-We used Active Vision Dataset (AVD) which can be downloaded from <a href="http://cs.unc.edu/~ammirato/active_vision_dataset_website/">here/a>. To make our code faster and have less memory requirement we created the AVD Minimal dataset which consists of lower resolution images in addition to annotations for target views, predicted object detections, and predicted semantic segmentation. Our code uses AVD Minimal.
+We used Active Vision Dataset (AVD) which can be downloaded from <a href="http://cs.unc.edu/~ammirato/active_vision_dataset_website/">here</a>. To make our code faster and have less memory requirement we created the AVD Minimal dataset which consists of lower resolution images in addition to annotations for target views, predicted object detections, and predicted semantic segmentation. Our code uses AVD Minimal.
 
 ## 3. Training
 Right now, the released version only supports training and inference using the real data from Active Vision Dataset.
