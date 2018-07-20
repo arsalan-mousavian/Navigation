@@ -92,7 +92,7 @@ python train_supervised_active_vision.py \
 Use the following command for unrolling the policy on the eval environments. The inference code periodically check the checkpoint folder for new checkpoints to use it for unrolling the policy on the eval environments. After each evaluation, it will create a folder in the $CHECKPOINT_DIR/evals/$ITER where $ITER is the iteration number at which the checkpoint is stored.
 ```shell
 # Eval
-rain_supervised_active_vision \
+python train_supervised_active_vision \
   --mode='eval' \
   --logdir=$CHECKPOINT_DIR \
   --modality_types='det' \
@@ -110,7 +110,7 @@ rain_supervised_active_vision \
 ```
 At any point, you can run the following command to compute statistics such as success rate over all the evaluations so far. It also generates gif images for unrolling of the best policy.
 ```shell
-Visualize and Compute Stats
+# Visualize and Compute Stats
 python viz_active_vision_dataset_main.py \
    --mode=eval \ 
    --eval_folder=$CHECKPOINT_DIR/evals/ \
