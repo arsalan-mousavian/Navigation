@@ -27,7 +27,7 @@ arXiv 2018
   </table>
 </div>
 
-
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/y5EJXeEiB1o/0.jpg)](https://www.youtube.com/watch?v=y5EJXeEiB1o)
 
 ArXiv: [https://arxiv.org/abs/1805.06066](https://arxiv.org/abs/1805.06066)
 
